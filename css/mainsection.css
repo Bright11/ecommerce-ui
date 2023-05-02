@@ -29,6 +29,20 @@ scroll-behavior:smooth;
 	position: relative;
 	justify-content: space-between;
 }
+#subcat{
+	display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		gap: 20px;
+}
+#subcat li{
+	padding: 8px;
+}
+#subcat li a{
+	font-size: 12px;
+	font-weight: 600;
+}
 .subcat{
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 	width: 70vw;
@@ -38,6 +52,7 @@ scroll-behavior:smooth;
 	display: none;
 	background: white;
 	transition: display 0.3s ease;
+	
 }
 
 .carts:hover .subcat{
